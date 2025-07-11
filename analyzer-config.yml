@@ -1,4 +1,12 @@
 rules:
+  MNT_LONG_METHOD:
+    enabled: true
+  MNT_MAGIC_NUMBER:
+    enabled: true
+  MNT_TOO_MANY_PARAMS:
+    enabled: true
+  MNT_UNUSED_LOCAL:
+    enabled: true
   SEC_SQL_INJECTION:
     enabled: true
   SEC_HARDCODED_SECRET:
@@ -9,3 +17,8 @@ rules:
     enabled: true
   SEC_INSECURE_DESERIALIZATION:
     enabled: true
+  SEC_COMMAND_INJECTION:
+    enabled: true
+  SEC_HTTP_METHOD_CONFIG:
+    enabled: true
+
