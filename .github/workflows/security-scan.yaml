@@ -33,7 +33,7 @@ jobs:
 
       - name: 🛡️ Run security scan
         run: |
-          java -jar analyzer/target/java-security-analyzer-0.0.1-SNAPSHOT.jar \
+          java -jar analyzer/target/java-security-analyzer-1.0.0.jar \
             --source src/main/java \
             --config analyzer-config.yml \
             --report security-report.html
